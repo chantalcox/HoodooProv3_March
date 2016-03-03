@@ -321,14 +321,15 @@ strong,
 	padding: 20px 35px 20px 35px;
 	color: #ffffff;
 	border: 1px solid rgba(255, 255, 255, 0.5);
-	border-color: rgba(255, 255, 255, 0.5);
+	border-color: #ffffff;
 	-webkit-transition: none;
 	transition: none;
 }
 
 .secondary-button:hover {
-	background: transparent;
-	border-color: #ffffff;
+	background: rgba(0, 141, 243, 0.5);
+	border-color: transparent;
+	color: #ffffff;
 }
 
 .secondary-button-dark {
@@ -337,7 +338,7 @@ strong,
 	letter-spacing: 1px;
 	font-size: 14px;
 	line-height: 1.6;
-	border: none;
+	border: ;
 	background: transparent;
 	padding: 20px 35px 20px 35px;
 	color: #272727;
@@ -360,6 +361,7 @@ strong,
 	-webkit-transition: none;
 	transition: none;
 }
+
 
 /*---------------------------------------
    2.3 BORDER AND LINE       
