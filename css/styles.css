@@ -362,6 +362,11 @@ strong,
 	transition: none;
 }
 
+#white-play-button {
+	height: 20%;
+    width: 20%;
+}
+
 
 /*---------------------------------------
    2.3 BORDER AND LINE       
@@ -580,6 +585,11 @@ strong,
 .intro-section h5 {
 	margin-top: 15px;
 	margin-bottom: 70px;
+}
+
+#home-div {
+    padding: 0px;
+    margin: 0px;
 }
 
 /*---------------------------------------
@@ -1104,12 +1114,25 @@ strong,
 }
 
 .modal-content {
-	padding: 10px 30px 30px 30px;
+	display: inline-block;
+	padding: 10px 10px 10px 10px;
+	width: 170%;
+	margin-left: -35%;
+    margin-right: 20%;
+    text-align: center;
 }
 
 .modal-content button {
-	width: 100%;
+	width: 150%;
 }
+
+#my_typeform {
+ display: inline-block;
+ width: 1000px;
+ height: 600px;
+ margin: 0px;
+ border-color: transparent;
+ }
 
 /*---------------------------------------
    3.13 SECTION: CONTACT INFO

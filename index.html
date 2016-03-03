@@ -97,7 +97,7 @@
                 <div class="only-logo">
                     <div class="navbar">
                         <div class="navbar-header">
-                            <img src="images/logo-2.png" alt="">
+                            <img src="images/logo-white.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -114,9 +114,10 @@
                             <h5 class="white-text">Our Silicon Valley one month program will get your startup product right for success.</h5>
                             
                             <!-- BUTTON -->
-                            <div class="button">
-                            	<a href="https://www.youtube.com/watch?v=yObTH9Hjyr8" class="btn secondary-button wow fadeInRight" data-wow-duration="2s" data-wow-offset="40" type="button" target="_blank">Watch Video</a>
-                                <button class="btn secondary-button wow fadeInRight" data-wow-duration="2s" data-wow-offset="40" type="button" data-toggle="modal" data-target="#stamp-modal">Free Assessment</button>
+                            <div class="button" id="home-div">
+                            	<a href="https://www.youtube.com/watch?v=yObTH9Hjyr8" class="btn wow fadeInRight" data-wow-duration="2s" data-wow-offset="40" type="button" target="_blank"><img src="images/play-button.svg" id="white-play-button"></a><br><br>
+                                <button class="btn btn-primary standard-button wow fadeInRight" data-wow-duration="2s" data-wow-offset="40" type="button" data-toggle="modal" data-target="#stamp-modal">Free Assessment</button>
+
                             </div>
                             <!-- /END BUTTON -->
                             
@@ -1143,24 +1144,9 @@
     <!-- REGISTRATION FORM FOR POPUP BOX -->
     <div class="modal fade bs-example-modal-sm" id="stamp-modal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-md">
-            <div class="modal-content">
+            <div class="modal-content">       	
                 <div class="vertical-registration-form">
-                    <h4 class="dark-text form-heading">Sign up for Product Assessment</h4>
-                    <form class="registration-form" id="product-assessment-form">
-                        <input type="text" id="cf-name" name="name" class="form-control input-box" placeholder="Name">
-                        <input type="email" id="cf-email" name="email" class="form-control input-box" placeholder="Email">
-                        <button class="btn btn-primary standard-button" id="submittoGoogleForm" type="submit">Go</button>
-                    </form>
-                    <p class="email-success dark-text">
-                        <span class="icon-check-alt2 colored-text"></span>You're successfully signed up!
-                    </p>
-                    <p class="email-error dark-text">
-                        <span class="icon-close-alt2"></span>Error! Please check all fields filled correctly
-                    </p>
-                    <!-- MAILCHIMP ALERTS 
-			        <p class="mailchimp-success dark-text"><span class="icon-check-alt2 colored-text"></span>We sent the confirmation to your email</p>
-			        <p class="mailchimp-error dark-text"><span class="icon-close-alt2"></span>Error! Please check all fields filled correctly</p>
-			        -->
+                	<iframe id="my_typeform" src="https://annyhsu.typeform.com/to/Y6NZ8a"></iframe>
                 </div>
             </div>
         </div>
