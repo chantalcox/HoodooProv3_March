@@ -67,6 +67,23 @@
     <!-- ****************
       After neccessary customization/modification, Please minify HTML/CSS according to http://browserdiet.com/en/ for better performance
      **************** -->
+
+	<!-- Add jQuery library -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <!-- Add fancyBox -->
+    <!--link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+    <script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancyYoutube").fancybox({
+					'width'			: 680,
+					'height'		: 495,
+					'type'			: "iframe",
+			});
+		});
+	</script-->
 </head>
 
 <body>
@@ -79,7 +96,7 @@
             &nbsp;
         </div>
     </div>
-    
+
     <!-- =========================
      SECTION: HOME / HEADER  
     ============================== -->
@@ -114,8 +131,9 @@
                             <h5 class="white-text">Our Silicon Valley one month program will get your startup product right for success.</h5>
                             
                             <!-- BUTTON -->
-                            <div class="button" id="home-div">
-                            	<a href="https://www.youtube.com/watch?v=yObTH9Hjyr8" class="btn wow fadeInRight" data-wow-duration="2s" data-wow-offset="40" type="button" target="_blank"><img src="images/play-button.svg" id="white-play-button"></a><br><br>
+                            <div class="button">
+                            	<a href="https://www.youtube.com/watch?v=yObTH9Hjyr8" class="btn wow fadeInRight" data-wow-duration="2s" data-wow-offset="40" type="button" data-toggle="modal" data-target="#video-modal"><img src="images/play-button.svg" id="white-play-button"></a><br><br>
+                            	
                                 <button class="btn btn-primary standard-button wow fadeInRight" data-wow-duration="2s" data-wow-offset="40" type="button" data-toggle="modal" data-target="#stamp-modal">Free Assessment</button>
 
                             </div>
@@ -1142,7 +1160,7 @@
     
     
     <!-- REGISTRATION FORM FOR POPUP BOX -->
-    <div class="modal fade bs-example-modal-sm" id="stamp-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal fade bs-example-modal-sm" id="stamp-modal" tabindex="-1" role="dialog" aria-hidden="false">
         <div class="modal-dialog modal-md">
             <div class="modal-content">       	
                 <div class="vertical-registration-form">
@@ -1151,6 +1169,14 @@
             </div>
         </div>
     </div>
+
+    <!-- VIDEO POPUP BOX -->
+     <div class="modal fade bs-example-modal-sm" id="video-modal" tabindex="-1" role="dialog" aria-hidden="false">
+        <div class="modal-dialog modal-md">     	
+                	<iframe style="height:450px;width:800px;border:0;margin-top:15%;margin-left:-15%" frameborder="0" src="https://www.youtube.com/embed/yObTH9Hjyr8?hl=en&amp;autoplay=0&amp;cc_load_policy=0&amp;loop=0&amp;iv_load_policy=1&amp;fs=1&amp;showinfo=1"></iframe>
+        </div>
+    </div>
+
 
     
     <!-- =========================
@@ -1231,7 +1257,7 @@
     <!-- =========================
      SCRIPTS   
     ============================== -->
-    <script src="js/jquery.min.js"></script>
+    
     <script>
         /* PRE LOADER */
         jQuery(window).load(function () {
