@@ -150,7 +150,7 @@ $(window).resize(function() {
 
     $("#screenshots").owlCarousel({
         navigation: false,
-        slideSpeed: 300,
+        slideSpeed: 100,
         paginationSpeed: 400,
         singleItem: true
     });
