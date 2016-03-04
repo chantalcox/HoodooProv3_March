@@ -345,9 +345,22 @@ jQuery(window).load(function() {
 });
 
 /*---------------------------------------*/
-/*  VIDEO FANCYBOX
+/*  VIDEO MODAL (FANCYBOX)
 /*---------------------------------------*/
 
+/*---------------------------------------*/
+/*  ASSESSMENT MODAL
+/*---------------------------------------*/
 
-
+function detectDevice_assessment() {
+    if (/mobile|tablet/i.test(navigator.userAgent)) {
+     // Mobile/Touch Device:
+     window.open("https://annyhsu.typeform.com/to/Y6NZ8a");
+     
+     } else {
+     // Other Devices:
+     // --> Display the inline iframe
+        $('#stamp-modal').modal('toggle');
+     }
+}
 

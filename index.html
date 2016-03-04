@@ -69,7 +69,7 @@
      **************** -->
 
 	<!-- Add jQuery library -->
-	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
 
     <!-- Add fancyBox -->
     <!--link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
@@ -132,9 +132,12 @@
                             
                             <!-- BUTTON -->
                             <div class="button">
-                            	<a href="https://www.youtube.com/watch?v=yObTH9Hjyr8" class="btn wow fadeInRight" data-wow-duration="2s" data-wow-offset="40" type="button" data-toggle="modal" data-target="#video-modal"><img src="images/play-button.svg" id="white-play-button"></a><br><br>
+                            	<a href="https://www.youtube.com/watch?v=yObTH9Hjyr8" class="btn wow fadeInRight fancyYoutube" data-wow-duration="2s" data-wow-offset="40" type="button" data-toggle="modal" data-target="#video-modal"><img src="images/play-button.svg" id="white-play-button"></a>
+                            	<br><br>
+
+                            	<!--data-toggle="modal" data-target="#video-modal"-->
                             	
-                                <button class="btn btn-primary standard-button wow fadeInRight" data-wow-duration="2s" data-wow-offset="40" type="button" data-toggle="modal" data-target="#stamp-modal">Free Assessment</button>
+                                <button class="btn btn-primary standard-button wow fadeInRight" id="assessment-btn" onclick="detectDevice_assessment()" data-wow-duration="2s" data-wow-offset="40" type="button">Free Assessment</button>
 
                             </div>
                             <!-- /END BUTTON -->
@@ -952,7 +955,7 @@
     
     
     <!-- REGISTRATION FORM FOR POPUP BOX -->
-    <div class="modal fade bs-example-modal-sm" id="stamp-modal" tabindex="-1" role="dialog" aria-hidden="false">
+    <div class="modal fade bs-example-modal-sm" id="stamp-modal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-md">
             <div class="modal-content">       	
                 <div class="vertical-registration-form">
@@ -963,7 +966,7 @@
     </div>
 
     <!-- VIDEO POPUP BOX -->
-     <div class="modal fade bs-example-modal-sm" id="video-modal" tabindex="-1" role="dialog" aria-hidden="false">
+     <div class="modal fade bs-example-modal-sm" id="video-modal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-md">     	
                 	<iframe style="height:450px;width:800px;border:0;margin-top:15%;margin-left:-15%" frameborder="0" src="https://www.youtube.com/embed/yObTH9Hjyr8?hl=en&amp;autoplay=0&amp;cc_load_policy=0&amp;loop=0&amp;iv_load_policy=1&amp;fs=1&amp;showinfo=1"></iframe>
         </div>
