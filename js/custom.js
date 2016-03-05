@@ -348,6 +348,18 @@ jQuery(window).load(function() {
 /*  VIDEO MODAL (FANCYBOX)
 /*---------------------------------------*/
 
+function detectDevice_video() {
+    if (/mobile|tablet/i.test(navigator.userAgent)) {
+     // Mobile/Touch Device:
+        $('#video-modal-mobile').modal('toggle');
+     
+     } else {
+     // Other Devices:
+     // --> Display the inline iframe
+        $('#video-modal-desktop').modal('toggle');
+     }
+}
+
 /*---------------------------------------*/
 /*  ASSESSMENT MODAL
 /*---------------------------------------*/
