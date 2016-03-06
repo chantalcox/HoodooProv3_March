@@ -1143,7 +1143,7 @@ strong,
 	overflow: hidden;
 	width: 60px;
 	height: 60px;
-	border: 3px solid #ffffff;
+	border: 1px solid #ffffff;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 }
