@@ -367,6 +367,10 @@ strong,
     width: 20%;
 }
 
+#assessment-button {
+	margin-top: 10px;
+}
+
 
 /*---------------------------------------
    2.3 BORDER AND LINE       
@@ -1023,6 +1027,7 @@ strong,
 .member-pic {
 	border: 5px solid #ffffff;
 	border-radius: 3px;
+	margin: 20px;
 }
 
 .member-pic img {
@@ -1030,11 +1035,6 @@ strong,
 }
 
 .member-pic img:hover {
-	filter: sepia(10%) hue-rotate(50deg);
-	-webkit-filter: sepia(10%) hue-rotate(50deg);
-	-moz-filter: sepia(10%) hue-rotate(50deg);
-	-o-filter: sepia(10%) hue-rotate(50deg);
-	-ms-filter: sepia(10%) hue-rotate(50deg);
 }
 
 .member-details {
@@ -1052,6 +1052,78 @@ strong,
 .member-details h5 {
 	margin-bottom: 3px;
 }
+
+/* Carousel  TEAM Css
+=========================== */
+.team-items{
+        width:100%;
+        height:auto;
+        position:relative;
+        float: left;
+    }
+
+#owl-demo .item{
+  overflow: hidden;
+}
+
+#owl-demo .owl-item{
+  margin: 0 auto;
+}
+
+#owl-demo .item img{
+  margin-bottom: 25px;
+}
+#team-section  .owl-theme .owl-controls .owl-buttons{
+    padding: 0px;
+}
+.owl-carousel {
+    display: block!important;
+}
+
+#team-section .owl-theme .owl-controls .owl-buttons .owl-prev {
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    border-radius: 50%;
+    padding-left: 8px!important;
+    padding-top: 6px;
+    position: absolute;
+    left: -80px;
+    top: 30%;
+    opacity:0;
+}
+#team-section .owl-theme .owl-controls .owl-buttons .owl-next {
+   width: 50px;
+   height: 50px;
+   font-size: 35px;
+   border-radius: 50%;
+   padding-left: 12px;
+   padding-top: 6px;
+   position: absolute;
+   right:-80px;
+    top: 30%;
+    opacity:0;
+}
+ #team-section .owl-theme .owl-controls .owl-buttons .owl-prev
+,#team-section .owl-theme .owl-controls .owl-buttons .owl-next{
+    -webkit-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+ #team-section .owl-theme .owl-controls .owl-buttons .owl-prev:hover
+,#team-section .owl-theme .owl-controls .owl-buttons .owl-next:hover {
+	background-color: #008DD5;
+}
+.owl-theme .owl-controls .owl-buttons {
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-next,
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+    float: left;
+    margin: 0px 10px;
+}
+
+
 
 /*---------------------------------------
    3.11 SECTION: TESTIMONIALS

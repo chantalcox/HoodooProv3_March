@@ -124,9 +124,9 @@
                             <!-- BUTTON -->
                             <div class="button">
                             	<a class="btn wow fadeInRight" onclick="detectDevice_video()" data-wow-duration="2s" data-wow-offset="40" type="button"><img src="images/play-button.svg" id="white-play-button"></a>
-                            	<br><br>
+                            	<br>
                             	
-                                <button class="btn btn-primary standard-button wow fadeInRight" onclick="detectDevice_assessment()" data-wow-duration="2s" data-wow-offset="40" type="button">Free Assessment</button>
+                                <button class="btn btn-primary standard-button wow fadeInRight" id="assessment-button" onclick="detectDevice_assessment()" data-wow-duration="2s" data-wow-offset="40" type="button">Free Assessment</button>
 
                             </div>
                             <!-- /END BUTTON -->
@@ -691,155 +691,180 @@
     <!-- =========================
      SECTION: TEAM   
     ============================== -->
-    <section class="team grey-bg" id="section9">
+    <section class="team grey-bg" id="team-section">
         <div class="container">
+            <div class="row">
+	            <!-- SECTION HEADER -->
+	            <div class="col-md-12">
+		            <div class="section-header">
+		                <div class="small-text-medium uppercase colored-text">
+		                    Team
+		                </div>
+		                <h2 class="dark-text"><strong>Our</strong> Team</h2>
+		                <div class="colored-line">
+		                </div>
+		                <div class="sub-heading">
+		                    Our founders have been building top products since a young age and have succesfully built startups. We know a thing or two about building great products.
+		                </div>
+		            </div>
+		         </div>
             
-            <!-- SECTION HEADER -->
-            <div class="section-header">
-                <div class="small-text-medium uppercase colored-text">
-                    Team
-                </div>
-                <h2 class="dark-text"><strong>Our</strong> Team</h2>
-                <div class="colored-line">
-                </div>
-                <div class="sub-heading">
-                    Our founders have been building top products since a young age and have succesfully built startups. We know a thing or two about building great products.
-                </div>
-            </div>
-            
-            <!-- MEMBERS -->
-            <div class="row wow fadeIn" data-wow-offset="10" data-wow-duration="1.75s">
-                
-                <!-- MEMBER -->
-                <div class="col-md-3 col-sm-6">
-                    <div class="team-member wow flipInY" data-wow-offset="10" data-wow-duration="1s">
-                        <div class="member-pic">
-                            <img src="images/team/1.jpg" alt="">
-                        </div>
-                        <div class="member-details">
-                            <h5 class="colored-text">Chantal Marin</h5>
-                            <div class="small-text">
-                                Founder &amp; CEO
-                            </div>
-                        </div>
-                        <ul class="social-icons">
-                            <li>
-                                <a href="">
-                                    <span class="icon-social-facebook dark-text"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="icon-social-twitter dark-text"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="icon-social-pinterest dark-text"></span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <!-- MEMBER -->
-                <div class="col-md-3 col-sm-6">
-                    <div class="team-member wow flipInY" data-wow-offset="10" data-wow-duration="1s">
-                        <div class="member-pic">
-                            <img src="images/team/2.jpg" alt="">
-                        </div>
-                        <div class="member-details">
-                            <h5 class="colored-text">Jordan Cox</h5>
-                            <div class="small-text">
-                                CMO
-                            </div>
-                        </div>
-                        <ul class="social-icons">
-                            <li>
-                                <a href="">
-                                    <span class="icon-social-facebook dark-text"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="icon-social-twitter dark-text"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="icon-social-pinterest dark-text"></span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <!-- MEMBER -->
-                <div class="col-md-3 col-sm-6">
-                    <div class="team-member wow flipInY" data-wow-offset="10" data-wow-duration="1s">
-                        <div class="member-pic">
-                            <img src="images/team/3.jpg" alt="">
-                        </div>
-                        <div class="member-details">
-                            <h5 class="colored-text">Marily Nika</h5>
-                            <div class="small-text">
-                               CTO
-                            </div>
-                        </div>
-                        <ul class="social-icons">
-                            <li>
-                                <a href="">
-                                    <span class="icon-social-facebook dark-text"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="icon-social-twitter dark-text"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="icon-social-pinterest dark-text"></span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <!-- MEMBER -->
-                <div class="col-md-3 col-sm-6 team-member">
-                    <div class="wow flipInY" data-wow-offset="10" data-wow-duration="1s">
-                        <div class="member-pic">
-                            <img src="images/team/4.jpg" alt="">
-                        </div>
-                        <div class="member-details">
-                            <h5 class="colored-text">Anny Hsu</h5>
-                            <div class="small-text">
-                                VP of Engineering
-                            </div>
-                        </div>
-                        <ul class="social-icons">
-                            <li>
-                                <a href="">
-                                    <span class="icon-social-facebook dark-text"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="icon-social-twitter dark-text"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="icon-social-pinterest dark-text"></span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
+            	 <!-- MEMBERS -->
+		         <div id="owl-demo" class="owl-carousel owl-theme team-items">     
+		                <!-- MEMBER -->
+	                    <div class="team-member wow" data-wow-offset="10" data-wow-duration="1s">
+	                        <div class="member-pic">
+	                            <img src="images/team/chantal.jpg" alt="">
+	                        </div>
+	                        <div class="member-details">
+	                            <h5 class="colored-text">Chantal Marin</h5>
+	                            <div class="small-text">
+	                                Founder &amp; CEO
+	                            </div>
+	                        </div>
+	                        <ul class="social-icons">
+	                            <li>
+	                                <a href="https://www.linkedin.com/in/chantalmarin" target="_blank">
+	                                    <span class="icon-social-linkedin dark-text"></span>
+	                                </a>
+	                            </li>
+	                            <li>
+	                                <a href="https://twitter.com/ChantalMarinB" target="_blank">
+	                                    <span class="icon-social-twitter dark-text"></span>
+	                                </a>
+	                            </li>
+	                        </ul>
+	                    </div>
+		                
+	               		<!-- MEMBER -->
+	                    <div class="team-member wow" data-wow-offset="10" data-wow-duration="1s">
+	                        <div class="member-pic">
+	                            <img src="images/team/jordan.jpg" alt="">
+	                        </div>
+	                        <div class="member-details">
+	                            <h5 class="colored-text">Jordan Cox</h5>
+	                            <div class="small-text">
+	                                CMO
+	                            </div>
+	                        </div>
+	                        <ul class="social-icons">
+	                            <li>
+	                                <a href="https://www.linkedin.com/in/jordan-cox-26251134" target="_blank">
+	                                    <span class="icon-social-linkedin dark-text"></span>
+	                                </a>
+	                            </li>
+	                            <li>
+	                                <a href="https://twitter.com/cox6329" target="_blank">
+	                                    <span class="icon-social-twitter dark-text"></span>
+	                                </a>
+	                            </li>
+	                        </ul>
+	                    </div>
+		                
+		                <!-- MEMBER -->
+	                    <div class="team-member wow" data-wow-offset="10" data-wow-duration="1s">
+	                        <div class="member-pic">
+	                            <img src="images/team/marily.jpg" alt="">
+	                        </div>
+	                        <div class="member-details">
+	                            <h5 class="colored-text">Marily Nika</h5>
+	                            <div class="small-text">
+	                               CTO
+	                            </div>
+	                        </div>
+	                        <ul class="social-icons">
+	                            <li>
+	                                <a href="https://www.linkedin.com/in/marilynika" target="_blank">
+	                                    <span class="icon-social-linkedin dark-text"></span>
+	                                </a>
+	                            </li>
+	                            <li>
+	                                <a href="https://twitter.com/marilynika" target="_blank">
+	                                    <span class="icon-social-twitter dark-text"></span>
+	                                </a>
+	                            </li>
+	                        </ul>
+	                    </div>
+		                
+		                <!-- MEMBER -->
+	                    <div class="team-member wow" data-wow-offset="10" data-wow-duration="1s">
+	                        <div class="member-pic">
+	                            <img src="images/team/anny.jpg" alt="">
+	                        </div>
+	                        <div class="member-details">
+	                            <h5 class="colored-text">Anny Hsu</h5>
+	                            <div class="small-text">
+	                                VP of Engineering
+	                            </div>
+	                        </div>
+	                        <ul class="social-icons">
+	                            <li>
+	                                <a href="https://uk.linkedin.com/in/weilingannyhsu" target="_blank">
+	                                    <span class="icon-social-linkedin dark-text"></span>
+	                                </a>
+	                            </li>
+	                            <li>
+	                                <a href="https://twitter.com/anny_hsu13" target="_blank">
+	                                    <span class="icon-social-twitter dark-text"></span>
+	                                </a>
+	                            </li>
+	                        </ul>
+	                    </div>
+
+		                <!-- MEMBER -->
+	                    <div class="team-member wow" data-wow-offset="10" data-wow-duration="1s">
+	                        <div class="member-pic">
+	                            <img src="images/team/pauline.jpg" alt="">
+	                        </div>
+	                        <div class="member-details">
+	                            <h5 class="colored-text">Pauline Chen</h5>
+	                            <div class="small-text">
+	                                VP of Data Science
+	                            </div>
+	                        </div>
+	                        <ul class="social-icons">
+	                            <li>
+	                                <a href="https://www.linkedin.com/in/chian-yu-pauline-chen-a1a5b9b4" target="_blank">
+	                                    <span class="icon-social-linkedin dark-text"></span>
+	                                </a>
+	                            </li>
+	                            <li>
+	                                <a href="https://twitter.com/HoodooPro" target="_blank">
+	                                    <span class="icon-social-twitter dark-text"></span>
+	                                </a>
+	                            </li>
+	                        </ul>
+	                    </div>
+
+		                <!-- MEMBER -->
+	                    <div class="team-member wow" data-wow-offset="10" data-wow-duration="1s">
+	                        <div class="member-pic">
+	                            <img src="images/team/amy.jpg" alt="">
+	                        </div>
+	                        <div class="member-details">
+	                            <h5 class="colored-text">Amy Wu</h5>
+	                            <div class="small-text">
+	                                VP of Marketing
+	                            </div>
+	                        </div>
+	                        <ul class="social-icons">
+	                            <li>
+	                                <a href="https://uk.linkedin.com/in/amy-wu-74254989" target="_blank">
+	                                    <span class="icon-social-linkedin dark-text"></span>
+	                                </a>
+	                            </li>
+	                            <li>
+	                                <a href="https://twitter.com/Jiaxuaannn" target="_blank">
+	                                    <span class="icon-social-twitter dark-text"></span>
+	                                </a>
+	                            </li>
+	                        </ul>
+	                    </div>
+
+		        </div> <!--Carousel End-->
+
+            </div><!--Row End-->
+        </div> <!--Container Team End-->
     </section>
     
     <!-- =========================
