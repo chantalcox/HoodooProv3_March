@@ -1053,7 +1053,7 @@ strong,
 	margin-bottom: 3px;
 }
 
-/* Carousel  TEAM Css
+/* Carousel TEAM ADVISOR Css
 =========================== */
 .team-items{
         width:100%;
@@ -1114,6 +1114,7 @@ strong,
 ,#team-section .owl-theme .owl-controls .owl-buttons .owl-next:hover {
 	background-color: #008DD5;
 }
+
 .owl-theme .owl-controls .owl-buttons {
 }
 
@@ -1123,6 +1124,76 @@ strong,
     margin: 0px 10px;
 }
 
+
+/*---------------------------------------
+   SECTION: ADVISOR
+-----------------------------------------*/
+.advisor {
+	padding-bottom: 50px;
+}
+
+.advisor-member {
+	margin-bottom: 50px;
+}
+
+.advisor-member .social-icons {
+	opacity: 0;
+	margin-top: 5px;
+	position: relative;
+	-webkit-transition: all ease 0.55s;
+	transition: all ease 0.55s;
+}
+
+.advisor-member .social-icons li {
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 3px;
+}
+
+.advisor-member .social-icons li a {
+	opacity: 0.5;
+}
+
+.advisor-member .social-icons li a:hover {
+	opacity: 1;
+	text-decoration: none;
+}
+
+.advisor-member:hover .social-icons {
+	opacity: 1;
+}
+
+.advisor-pic {
+	border: 5px solid #ffffff;
+	border-radius: 3px;
+	margin-left: 35px;
+	width: 80%;
+	height: 80%;
+}
+
+.advisor-pic img {
+	width: 100%;
+}
+
+.advisor-pic img:hover {
+}
+
+.advisor-details {
+	padding-top: 10px;
+	padding-bottom: 12px;
+	position: relative;
+	width: 85%;
+	margin: auto;
+	background: #ffffff;
+	border-radius: 3px;
+	margin-top: -45px;
+	z-index: 1;
+}
+
+.advisor-details h5 {
+	margin-bottom: 3px;
+}
 
 
 /*---------------------------------------
@@ -1143,7 +1214,7 @@ strong,
 	overflow: hidden;
 	width: 60px;
 	height: 60px;
-	border: 1px solid #ffffff;
+	border: 2px solid #ffffff;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 }
